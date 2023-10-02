@@ -1,0 +1,55 @@
+body {
+    background-color: darkgreen;
+
+    text-align: center;
+
+    color: white;
+  }
+
+  #round {
+    color: goldenrod;
+  }
+
+  #gameBTN {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #newGameBTN {
+    color: #016f32;
+    width: 150px;
+    background-color: rgb(223, 123, 29);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #outGame {
+    color: red;
+  }
+
+  #winGame {
+    color: lime;
+  }
+
+  #newChance {
+    color: skyblue;
+  }
+
+  #container {
+    border: 3px solid red;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #startings {
+    color: rgb(161, 124, 161);
+  }

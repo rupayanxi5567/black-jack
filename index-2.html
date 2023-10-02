@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Black Jack</title>
+    <link rel="stylesheet" href="index-2.css">
+
+  </head>
+  <body>
+    <h1 class="styling" id="headingChange">Black Jack by Rupayan</h1>
+
+    <h2 class="styling" id="startings">Wanna Play a Round?</h2>
+    <h2 class="styling" id="round">Not played yet</h2>
+
+    <p id="card" class="styling">Cards:</p>
+
+    <p id="total" class="styling">Sum:</p>
+
+    <button class="styling" id="gameBTN" onclick="startGame()">
+      Start Game
+    </button>
+
+    <div id="container">
+      <h2 style="color: black; font-weight: 900">Rules</h2>
+
+      <p id="newChance">
+        [ If Sum is less than 20, then you get a chane to draw new card ]
+      </p>
+
+      <p id="winGame">
+        [ If Sum is less equal to 21, then Kudos, you have the BJ ]
+      </p>
+
+      <p id="outGame">
+        [ If the sum is greater than 21, then You are out of the game ]
+      </p>
+    </div>
+  </body>
+
+  <script src="index-2.js"></script>
+
+</html>
